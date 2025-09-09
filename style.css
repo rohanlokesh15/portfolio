@@ -232,3 +232,40 @@ footer {
   .about-grid { grid-template-columns: 1fr; text-align: center; }
   .about-img { justify-self: center; }
 }
+/* Skills Grid */
+.skill-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+/* Skill Card */
+.skill-card {
+  background: rgba(30, 41, 59, 0.8);
+  backdrop-filter: blur(12px);
+  border-radius: var(--radius);
+  padding: 2rem;
+  text-align: center;
+  box-shadow: var(--shadow);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.skill-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.8rem;
+  color: var(--text);
+}
+
+.skill-card p {
+  color: var(--muted);
+  font-size: 1rem;
+}
+
+/* Hover Glow */
+.skill-card:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 0 25px rgba(99, 102, 241, 0.7);
+}
