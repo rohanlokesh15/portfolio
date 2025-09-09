@@ -1,40 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Skills — Rohan Lokesh</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Skills | Rohan Lokesh</title>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
+
+  <!-- Navbar -->
   <div class="navbar">
-  <div class="container navwrap">
-    <div class="brand">
-      <img src="resumeProfile.jpg" alt="Profile"/>
-      <span>Rohan Lokesh</span>
-    </div>
-    <div class="navlinks">
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="skills.html">Skills</a>
-      <a href="education.html">Education</a>
-      <a href="projects.html">Projects</a>
-      <a href="certificates.html">Certificates</a>
-      <a href="contact.html">Contact</a>
+    <div class="container navwrap">
+      <div class="brand">
+        <img src="resumeProfile.jpg" alt="Profile"/>
+        <span>Rohan Lokesh</span>
+      </div>
+      <div class="navlinks">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="skills.html" class="active">Skills</a>
+        <a href="education.html">Education</a>
+        <a href="projects.html">Projects</a>
+        <a href="certificates.html">Certificates</a>
+        <a href="contact.html">Contact</a>
+      </div>
     </div>
   </div>
-</div>
 
-  <main class="content">
+  <!-- Skills Section -->
+  <section class="container section page">
     <h2>Skills</h2>
-    <div class="card slide-in"><h3>Programming</h3><p>Java, C, Python</p></div>
-    <div class="card slide-in"><h3>Web</h3><p>HTML, CSS</p></div>
-    <div class="card slide-in"><h3>Databases</h3><p>SQL, MongoDB</p></div>
-    <div class="card slide-in"><h3>Soft Skills</h3><p>Management, Creativity, Digital Marketing, Leadership, Critical Thinking, Content Creation</p></div>
-  </main>
+    <div class="skill-grid">
 
+      <div class="skill-card">
+        <h3>Programming</h3>
+        <p>Java, C, Python</p>
+      </div>
+
+      <div class="skill-card">
+        <h3>Web</h3>
+        <p>HTML, CSS</p>
+      </div>
+
+      <div class="skill-card">
+        <h3>Databases</h3>
+        <p>SQL, MongoDB</p>
+      </div>
+
+      <div class="skill-card">
+        <h3>Soft Skills</h3>
+        <p>Management, Creativity, Leadership, Critical Thinking, Content Creation</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
   <footer>
-    <p>© 2025 Rohan Lokesh</p>
+    <div class="container">
+      <div>© 2025 Rohan Lokesh</div>
+      <div><a href="https://github.com/rohan-lokesh" target="_blank">GitHub</a></div>
+    </div>
   </footer>
+
 </body>
 </html>
