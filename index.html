@@ -1,71 +1,77 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Home | Rohan Lokesh</title>
-  <link rel="stylesheet" href="style.css"/>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Rohan Lokesh — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <meta name="description" content="Rohan Lokesh — Front End Design, AI/ML, Data Analytics, Computer Vision, Service Development" />
 </head>
 <body>
+  <div class="wrap">
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Rohan Lokesh homepage">
+        <div class="logo">RL</div>
+        <div class="brand-text">
+          <span class="name">Rohan Lokesh</span>
+          <span class="role">Front-End & AI / ML • CV • Data Analytics • Services</span>
+        </div>
+      </a>
 
-  <div class="navbar">
-    <div class="container navwrap">
-      <div class="brand">
-        <img src="resumeProfile.jpg" alt="Profile"/>
-        <span>Rohan Lokesh</span>
-      </div>
-      <div class="navlinks"><a href="index.html" class="active">Home</a>
-<a href="about.html" class="">About</a>
-<a href="education.html" class="">Education</a>
-<a href="projects.html" class="">Projects</a>
-<a href="skills.html" class="">Skills</a>
-<a href="certificates.html" class="">Certificates</a>
-<a href="contact.html" class="">Contact</a></div>
-    </div>
+      <input id="nav-toggle" type="checkbox" class="nav-toggle" aria-hidden="true" />
+      <label for="nav-toggle" class="nav-burger" aria-hidden="true"><span></span></label>
+
+      <nav class="nav">
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="skills.html">Skills</a>
+        <a href="certificates.html">Certificates</a>
+        <a href="contact.html" class="btn-primary">Contact</a>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section class="hero card">
+        <div class="hero-left">
+          <h1>Hi — I'm <span class="accent">Rohan</span></h1>
+          <p class="lead">I design beautiful, responsive interfaces and build intelligent systems — combining Front End Design with AI/ML, Data Analytics, Computer Vision and scalable service development.</p>
+
+          <div class="actions">
+            <a class="btn-primary" href="mailto:rohanlokesh152004@gmail.com">Contact Me</a>
+            <a class="btn-ghost" href="https://www.linkedin.com/in/rohan-lokesh-a14a9a292/" target="_blank" rel="noopener">LinkedIn</a>
+          </div>
+
+          <div class="meta">
+            <span class="pill">Area of Interest: Front End Design</span>
+            <span class="pill">AI/ML • Data Analytics • Computer Vision • Service Development</span>
+          </div>
+        </div>
+
+        <aside class="hero-right card profile-card" aria-label="Profile">
+          <img src="resumeProfile.jpg" alt="Rohan Lokesh profile picture" class="profile-img" />
+          <div class="profile-info">
+            <strong>Rohan Lokesh</strong>
+            <div class="muted">UI / Front-End · AI/ML · CV · Data Analytics</div>
+            <p class="muted" style="margin-top:8px">I build responsive, accessible interfaces and production-ready AI services — from prototypes to deployed microservices.</p>
+          </div>
+        </aside>
+      </section>
+
+      <section class="card highlights">
+        <h2>Quick Highlights</h2>
+        <ul>
+          <li>Front-end design & responsive UI</li>
+          <li>Machine learning & predictive systems</li>
+          <li>Computer vision applications</li>
+          <li>Data analytics & visualization</li>
+          <li>Service development & deployment (APIs, Docker)</li>
+        </ul>
+      </section>
+
+      <footer class="site-footer">
+        <small>© 2025 Rohan Lokesh — Designed for accessibility & responsive devices.</small>
+      </footer>
+    </main>
   </div>
-
-
-
-  <section class="hero page">
-    <img src="resumeProfile.jpg" alt="Rohan Lokesh"/>
-    <h1>Rohan Lokesh</h1>
-    <p>Final-year CSE • AI & CV • Web Dev • Data Analytics</p>
-    <div class="badges">
-      <span class="badge">Bengaluru, IN</span>
-      <span class="badge">Open to Internships</span>
-      <a class="badge" href="mailto:rohanlokesh152004@gmail.com">Contact me</a>
-    </div>
-  </section>
-
-<section class="container section page">
-  <div class="grid two">
-    <div class="card">
-      <div class="kicker">About</div>
-      <h2>A quick intro</h2>
-      <p class="meta">Final-year Computer Science student passionate about data analytics, web development,
-      software development, computer vision, and AI. I love building useful tools and solving real problems.</p>
-      <p><a class="btn" href="about.html">Read more</a></p>
-    </div>
-    <div class="card">
-      <div class="kicker">Highlight</div>
-      <h2>Signature Projects</h2>
-      <ul class="meta">
-        <li>AR Indoor Navigation (Google ARCore)</li>
-        <li>AI-driven Resume Screening (ML + NLP)</li>
-        <li>Visual Feature Extraction & Color Analysis (Python GUI)</li>
-      </ul>
-      <p><a class="btn" href="projects.html">See all projects</a></p>
-    </div>
-  </div>
-</section>
-
-
-  <footer>
-    <div class="container">
-      <div>© 2025 Rohan Lokesh</div>
-      <div><a href="https://github.com/rohan-lokesh" target="_blank">GitHub</a></div>
-    </div>
-  </footer>
-
 </body>
 </html>
