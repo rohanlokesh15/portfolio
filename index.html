@@ -1,77 +1,38 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rohan Lokesh — Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
-  <meta name="description" content="Rohan Lokesh — Front End Design, AI/ML, Data Analytics, Computer Vision, Service Development" />
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="wrap">
-    <header class="site-header">
-      <a class="brand" href="index.html" aria-label="Rohan Lokesh homepage">
-        <div class="logo">RL</div>
-        <div class="brand-text">
-          <span class="name">Rohan Lokesh</span>
-          <span class="role">Front-End & AI / ML • CV • Data Analytics • Services</span>
-        </div>
-      </a>
+  <header class="navbar">
+    <div class="logo">RL</div>
+    <nav>
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About</a>
+      <a href="skills.html">Skills</a>
+      <a href="education.html">Education</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
 
-      <input id="nav-toggle" type="checkbox" class="nav-toggle" aria-hidden="true" />
-      <label for="nav-toggle" class="nav-burger" aria-hidden="true"><span></span></label>
+  <main class="hero">
+    <div class="hero-text">
+      <h1>Hi, I'm <span class="highlight">Rohan Lokesh</span></h1>
+      <p>Final-year Computer Science student passionate about Data Analytics, AI/ML, Computer Vision, Web, and Service Development. I create solutions that merge <strong>design</strong> and <strong>intelligence</strong> to solve real-world problems.</p>
+      <a href="contact.html" class="btn">Contact Me</a>
+      <a href="https://www.linkedin.com/in/rohan-lokesh-a14a9a292/" target="_blank" class="btn-outline">LinkedIn</a>
+    </div>
+    <div class="hero-img">
+      <img src="resumeProfile.jpg" alt="Rohan Lokesh">
+    </div>
+  </main>
 
-      <nav class="nav">
-        <a href="about.html">About</a>
-        <a href="projects.html">Projects</a>
-        <a href="skills.html">Skills</a>
-        <a href="certificates.html">Certificates</a>
-        <a href="contact.html" class="btn-primary">Contact</a>
-      </nav>
-    </header>
-
-    <main class="container">
-      <section class="hero card">
-        <div class="hero-left">
-          <h1>Hi — I'm <span class="accent">Rohan</span></h1>
-          <p class="lead">I design beautiful, responsive interfaces and build intelligent systems — combining Front End Design with AI/ML, Data Analytics, Computer Vision and scalable service development.</p>
-
-          <div class="actions">
-            <a class="btn-primary" href="mailto:rohanlokesh152004@gmail.com">Contact Me</a>
-            <a class="btn-ghost" href="https://www.linkedin.com/in/rohan-lokesh-a14a9a292/" target="_blank" rel="noopener">LinkedIn</a>
-          </div>
-
-          <div class="meta">
-            <span class="pill">Area of Interest: Front End Design</span>
-            <span class="pill">AI/ML • Data Analytics • Computer Vision • Service Development</span>
-          </div>
-        </div>
-
-        <aside class="hero-right card profile-card" aria-label="Profile">
-          <img src="resumeProfile.jpg" alt="Rohan Lokesh profile picture" class="profile-img" />
-          <div class="profile-info">
-            <strong>Rohan Lokesh</strong>
-            <div class="muted">UI / Front-End · AI/ML · CV · Data Analytics</div>
-            <p class="muted" style="margin-top:8px">I build responsive, accessible interfaces and production-ready AI services — from prototypes to deployed microservices.</p>
-          </div>
-        </aside>
-      </section>
-
-      <section class="card highlights">
-        <h2>Quick Highlights</h2>
-        <ul>
-          <li>Front-end design & responsive UI</li>
-          <li>Machine learning & predictive systems</li>
-          <li>Computer vision applications</li>
-          <li>Data analytics & visualization</li>
-          <li>Service development & deployment (APIs, Docker)</li>
-        </ul>
-      </section>
-
-      <footer class="site-footer">
-        <small>© 2025 Rohan Lokesh — Designed for accessibility & responsive devices.</small>
-      </footer>
-    </main>
-  </div>
+  <footer>
+    <p>© 2025 Rohan Lokesh</p>
+  </footer>
 </body>
 </html>
