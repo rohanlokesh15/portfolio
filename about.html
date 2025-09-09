@@ -1,52 +1,42 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>About | Rohan Lokesh</title>
-  <link rel="stylesheet" href="style.css"/>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About — Rohan Lokesh</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <div class="wrap">
+    <header class="site-header">
+      <a class="brand" href="index.html"><div class="logo">RL</div><div class="brand-text"><span class="name">Rohan Lokesh</span></div></a>
+      <input id="nav-toggle" type="checkbox" class="nav-toggle" aria-hidden="true" />
+      <label for="nav-toggle" class="nav-burger" aria-hidden="true"><span></span></label>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="skills.html">Skills</a>
+        <a href="certificates.html">Certificates</a>
+        <a href="contact.html" class="btn-primary">Contact</a>
+      </nav>
+    </header>
 
-  <div class="navbar">
-    <div class="container navwrap">
-      <div class="brand">
-        <img src="resumeProfile.jpg" alt="Profile"/>
-        <span>Rohan Lokesh</span>
-      </div>
-      <div class="navlinks"><a href="index.html" class="">Home</a>
-<a href="about.html" class="active">About</a>
-<a href="education.html" class="">Education</a>
-<a href="projects.html" class="">Projects</a>
-<a href="skills.html" class="">Skills</a>
-<a href="certificates.html" class="">Certificates</a>
-<a href="contact.html" class="">Contact</a></div>
-    </div>
+    <main class="container">
+      <section class="card">
+        <h2>About Me</h2>
+        <p>I build intelligent and visually engaging solutions that combine thoughtful design with robust engineering. My work spans:</p>
+
+        <ul class="about-list">
+          <li><strong>Front-End Design</strong> — modern, accessible and responsive UI/UX design that works on all devices.</li>
+          <li><strong>Artificial Intelligence & Machine Learning</strong> — predictive models, model evaluation, and deployment.</li>
+          <li><strong>Data Analytics</strong> — data cleaning, exploration, visualization and deriving actionable insights.</li>
+          <li><strong>Computer Vision</strong> — image preprocessing, feature extraction, detection and recognition systems.</li>
+          <li><strong>Service Development</strong> — building APIs, microservices, Dockerized deployments and production-ready backends.</li>
+        </ul>
+
+        <p>My approach: user-centered design + reproducible engineering. I like to take prototypes to production — from UI prototyping to scalable model serving.</p>
+      </section>
+    </main>
   </div>
-
-
-  <section class="container section page">
-    <h2>About Me</h2>
-    <div class="card">
-      <p>
-        I'm a final-year Computer Science student driven by curiosity and a builder's mindset.
-        My interests span AI/ML, computer vision, data analytics, and full‑stack web development.
-      </p>
-      <p class="meta">
-        I enjoy transforming ideas into clean, practical products — from AR-powered navigation to
-        tools that analyze images and extract useful features.
-      </p>
-      <div class="meta">Languages I speak: English, Kannada, Hindi (partial)</div>
-    </div>
-  </section>
-
-
-  <footer>
-    <div class="container">
-      <div>© 2025 Rohan Lokesh</div>
-      <div><a href="https://github.com/rohan-lokesh" target="_blank">GitHub</a></div>
-    </div>
-  </footer>
-
 </body>
 </html>
